@@ -3,7 +3,7 @@ package problems
 object P07 {
 
   /*
-   * If contains only lists
+   * If contains only exactly one level deep lists
    */
   def flatten[T](listOfLists: List[List[T]]): List[T] = {
 
